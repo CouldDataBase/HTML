@@ -1,0 +1,53 @@
+<!--html test-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Power BI - Descrição do site (slogan) </title>
+        <meta charser="utf-8" />
+        <meta name= "description" content= "Descrição completa do conteúdo limitada a 156 caracateres" />
+        <meta name="Keywords" content="html, títulos, cabeçalhos, seo, meta tags" />        
+        <body>
+        João Correia Business Intelligence
+        </body>
+        <h3>Joao correia Analista de BI.</h3>
+        <p> Profissional especializado na Analise de Dados</p>
+        </head>
+        <body>
+            <h2>Lista nao ordenada</h2>
+            <ul>
+                <li>Primeiro item da lista</li>
+                <li>Segundo item da lista</li>
+                <li>Terceiro item da lista</li>
+                <li>Quarto item da lista</li>
+            </ul>
+
+            <h2>Lista ordenada</h2>
+            <ol>
+                <li>Primeiro item da lista</li>
+                <Li>Segundo item da lista</Li>
+                <li>Terceiro item da lista</li>
+                <li> Quarto item da lista</li>
+            </ol>
+
+            <h2>Lista de definição</h2>
+            <dl>
+                <dt>html</dt>
+                <dt>Linguagem de marcação para páginas web</dt>
+                <dt>html</dt>
+                <dt>Linguagem de marcação para páginas web</dt>
+                <dt>html</dt>
+                <dt>Linguagem de marcação para páginas web</dt>
+                <dt>html</dt>
+                <dt>Linguagem de marcação para páginas web</dt>
+
+            </dl>
+            <body>
+                <h3>Título de nível 1</h3>
+                <h3>Título de nível 2</h3>
+                <h3>Título de nível 3</h3>
+                <h3>Título de nível 4</h3>
+                <h3>Título de nível 5</h3>
+                <h3>Título de nível 6</h3>
+            </body>
+        </body>
+</html>
