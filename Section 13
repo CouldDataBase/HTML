@@ -193,3 +193,13 @@ h1 {
 .faq.active .faq-toggle {
     background-color: #9fa4a8;
 }
+
+****************************************************************************************
+
+const toggles = document.querySelectorAll('.faq.toggle')
+
+toggles.forEach(toggle => { 
+    toggle.addEventListener('click', () => {
+        toggle.parentNode.classList.toggle('active')
+    })
+})
