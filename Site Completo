@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Ubuntu' sans-serif;
+}
+/* Barra de Menu */
+.center {
+    display: flex;
+    padding: 0 14px;
+    background-color: rgb(243, 130, 0);
+    position: fixed;
+    top: 0;
+    width: 100%;  
+    z-index: 999;  
+}
+
+.logo {
+    width: 50%;
+    padding: 14px 0;
+    padding-left: 100px;
+
+}
+
+.menu {
+    width: 50%;
+    text-align: right;
+    padding: 22px ;
+    padding-right: 100px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', 'Ubuntu';
+    margin-right: 25px;
+    font-size: 18px;
+}
+
+/* Banner */
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background: url(https://loja.pisolar.com.br/media/pisolar/carousel/banner-1-web.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;     
+}
+
+/* sessao nossa historia */
+
+.about .about-content { /*Alinhamento img - text */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section { /* Espaço banner e nossa história */ 
+    padding: 80px;
+}
+
+.about .title {
+    font-family: 'Roboto', 'Ubuntu';
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+    color: rgb(243, 130, 0);
+}
+
+.about .about-content .text {
+    font-family: 'Roboto', 'Ubuntu';
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.about .about-content .left{
+    width: 50%;
+    padding: 14px 0;
+    padding-left: 100px;
+}
+
+.about .about-content .right {
+    width: 50%;
+    text-align: justify;
+    padding: 22px ;
+    padding-right: 100px;
+}
+
+/* sessão conato */
+.contact .title{
+    font-family: 'Roboto', 'Ubuntu';
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+    color: rgb(243, 130, 0);
+}
+
+.contact .contact-content{
+    align-items: flex-start;
+}
+
+.contact .contact-content .text{
+    font-family: 'Roboto', 'Ubuntu';
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 10px;
+    margin-left: 300px;
+}
+
+.contact .contact-content .icons{
+    margin-left: 320px;
+    padding: 10px 0;
+}
+
+.contact .contact-content .name{
+    margin-left: 320px;
+}
+
+.contact .contact-content .email{
+    margin-left: 320px;
+}
+
+.contact .contact-content .fieldss{
+    margin-left: 320px;
+}
+
+footer {
+    font-family: 'Roboto', 'Ubuntu';
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+}
