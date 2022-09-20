@@ -1,3 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pisolar</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div class="logo">
+                <img src="https://loja.pisolar.com.br/media//pisolar/logo.png" alt="">
+            </div>
+            <div class="menu">
+                <a href="#">Início</a></li>
+                <a href="#about">Nossa História</a></li>
+                <a href="#">Nossas Lojas</a></li>
+                <a href="#contact">Contato</a></li>
+            </div>
+        </div>
+    </header>
+
+    <!--Banner-->
+    <section class="banner">                
+    </section>
+
+    <!--sessão Nossa Historia-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Nossa História</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="https://solutudo-cdn.s3-sa-east-1.amazonaws.com/prod/adv_ads/5a74aee8-e784-4062-a854-7f05ac1f1119/a11686f9-d1a4-42c6-86b3-6a6d9e9f95ef.png" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">Grupo Pisolar <span class="typing-2"></span></div>
+                    <br>
+                    <p>No ano de 1967, do sonho de um homem sempre à frente do seu tempo, nasceu a Pisolar. Tudo começou com uma pequena fábrica de ladrilhos e muros pré-moldados fundada por Aloisio de Campos Lima, mais conhecido como Seu Aloisio. Essa pequena fábrica, ao longo de 55 anos, se tornou a maior loja especializada em material de construção do estado de Sergipe, gerando mais de 400 empregos diretos e tornando-se referência em revenda de produtos de grandes marcas como: Coral, Iquine, Tigre, Deca, Fortlev, Sika, Roca, entre outros.
+                        <br>
+                        Hoje, possuímos duas lojas climatizadas, amplas e confortáveis com estacionamento privativo e mais de 40 mil itens à disposição de nossos clientes. Um Centro de Distribuição com mais de 12.000 metros quadrados e a nossa boutique de fino acabamento, a CasaVip.</p>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--sessão contato-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contato</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <BR>
+                        <br>
+                        <br>
+                    <div class="text">Fale Conosco</div>
+                        
+                    <div class="icons">
+                        <div class="row">
+                            <ion-icon name="person-outline"></ion-icon>
+                            <div class="info">
+                                <div class="head">Nome</div>
+                                
+                            </div>
+                        </div>
+                        <div class="row">
+                            <ion-icon name="person-outline"></ion-icon>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">contato@pisolar.com.br</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--column left-->
+                <div class="column rigth">
+                    <div class="text">Mensagem</div>
+                    <form action="#">
+                        <div class="field name">
+                            <input type="text" placeholder="Nome" required>
+                        </div>
+                        <div class="=field email">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="fieldss">
+                            <div class="fields">
+                                <input type="text" placeholder="Sobrenome" required>
+                            </div>
+                            <div class="fieldd textarea">
+                                <textarea cols="100" rows="10" placeholder="Escrever..." required></textarea>
+                            </div>
+                            <div class="button">
+                                <button type="submit">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--sessão footer-->
+    <footer>
+        <span>Desenvolvido por <a href="#">Grupo Pisolar</a> | Todos os direitos reservados 2022</span>
+    </footer>
+
+</body>
+</html>
+
+/******************************************************************/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
 
 * {
