@@ -1,0 +1,27 @@
+<section class="grade-principal">
+        <div class="grade-item">
+            <div class="grade-image">
+                <img src="https://construtorasaojose.com/wp-content/uploads/2021/11/about_details_image-572x563.png.webp" alt="img-1" width="400px">
+            </div>
+            <div class="grade-text-1">
+                <h5>A DIFERENÇA MORA NOS DETALHES</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis laboriosam eos sunt, id porro reprehenderit minus placeat, quaerat omnis facere consequuntur doloremque, sint tempora aspernatur corrupti! Commodi unde, assumenda officiis voluptas atque blanditiis at fugit saepe voluptates eum eos a exercitationem nam voluptatem odio, veritatis velit mollitia enim beatae voluptatum!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="grade-secundaria">
+        <div class="grade-item-2">
+            <div class="grade-text-2">
+                <h5>A DIFERENÇA MORA NOS DETALHES</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis laboriosam eos sunt, id porro reprehenderit minus placeat, quaerat omnis facere consequuntur doloremque, sint tempora aspernatur corrupti! Commodi unde, assumenda officiis voluptas atque blanditiis at fugit saepe voluptates eum eos a exercitationem nam voluptatem odio, veritatis velit mollitia enim beatae voluptatum!</p>
+            </div>
+            <div class="grade-image-2">
+                <img src="https://construtorasaojose.com/wp-content/uploads/2021/11/about_details_image-572x563.png.webp" alt="img-1" width="400px">
+            </div>
+        </div>
+    </section>
+    
+    ********************************************************************************************************************************
+    
+    
