@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <h2>Apresentação</h2>
+    <div class="slider">
+        <!---->
+        <div class="card">
+            <img class="foto" src="https://classic.exame.com/wp-content/uploads/2022/08/Capa-do-album-Copa-do-Mundo.jpg?quality=70&strip=info&w=643" />
+        </div>
+        <!---->
+        <div class="card">
+            <img class="foto" src="https://img.elo7.com.br/product/zoom/43D7137/topo-de-bolo-copa-do-mundo-qatar-2022.jpg" />
+        </div>
+        <!---->
+        <div class="card">
+            <img class="foto" src="https://investnews.com.br/wp-content/uploads/2022/04/arte-jogos-brasil-1.png" />
+        </div>
+        <!---->
+        <div class="card">
+            <img class="foto" src="https://media.gazetadopovo.com.br/amp-stories/sites/3/2022/03/29095530/Copa-do-Mundo-2022-selecoes-classificadas-para-o-Catar-veja-lista-640x640.jpg" />
+        </div>
+        <!---->
+        <div class="card">
+            <img class="foto"src="https://img.elo7.com.br/product/zoom/43A2D1D/topo-de-bolo-copa-do-mundo-2022-topo-de-bolo-brasil.jpg" />
+        </div>
+
+        <div class="card">
+            <img class="foto" src="https://img.elo7.com.br/product/zoom/43D7137/topo-de-bolo-copa-do-mundo-qatar-2022.jpg" />
+        </div>
+        <!---->
+        <div class="card">
+            <img class="foto" src="https://media.gazetadopovo.com.br/amp-stories/sites/3/2022/03/29095530/Copa-do-Mundo-2022-selecoes-classificadas-para-o-Catar-veja-lista-640x640.jpg" />
+        </div>
+
+        <div class="card">
+            <img class="foto" src="https://classic.exame.com/wp-content/uploads/2022/08/Capa-do-album-Copa-do-Mundo.jpg?quality=70&strip=info&w=643" />
+        </div>
+
+        
+
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    
+</body>
+</html>
+
