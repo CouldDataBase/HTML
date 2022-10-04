@@ -42,11 +42,66 @@
 
         <div class="card">
             <img class="foto" src="https://classic.exame.com/wp-content/uploads/2022/08/Capa-do-album-Copa-do-Mundo.jpg?quality=70&strip=info&w=643" />
-        </div>
-
-        
+        </div>       
 
     </div>
+    
+    @import url("https%3A%2F%2Ffonts.googleapis.com%2Fcss2%3Ffamily%3DOpen%2BSans%3Awght%40400%3B600%26display%3Dswap&v=NX8yWFVW23g");
+* {
+    font-family: "open sans", sans-serif;
+    margin: 0;
+    letter-spacing: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #e1eae1;
+    padding: 2rem 0;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h2 {
+    color: #000;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+h2::after{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    background-color: #7ac402;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.slider {
+    display: flex;    
+}
+
+.slider .card {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider .card .foto {
+    width: 100%;
+}
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
