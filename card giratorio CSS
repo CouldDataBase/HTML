@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        section {
+            width: 500px;
+            margin: 50px auto;
+            
+        }
+
+        .face {
+            width: 400px;
+            height: 200px;
+            perspective: 700px;
+            
+        }
+
+        .front, .back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            transition: 700ms;
+        }
+
+        .front {
+            background: rgb(0, 168, 0);
+            z-index: 1;
+        }
+
+        .back {
+            background: rgb(68, 0, 255);
+            transform: rotateY(-180deg);
+            backface-visibility: hidden;
+        }
+
+        .face:hover .front {
+            transform: rotateY(180deg);
+            z-index: 0;
+        }
+        .face:hover .back {
+            transform: rotateY(0);
+            z-index: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="face">
+            <div class="front">
+                <h2>FRONT</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, neque eum. Iusto quos, laboriosam ipsam totam beatae eos quisquam vel autem nisi doloremque amet nobis! Eius temporibus quidem reiciendis? Magni.</p>
+            </div>
+
+            <div class="back">
+                <h2>BACK</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam sint quisquam consequatur eligendi asperiores porro numquam magni, culpa sequi qui provident officiis dolor? Cum, dolor? Laudantium mollitia architecto quibusdam fugit.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
